@@ -1,0 +1,108 @@
+body {
+    font-family: "Playwrite NG Modern", cursive; /* Sets the font family for the entire document */
+    font-weight: 400; /* Sets default font weight to 400 */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+}
+
+h1 {
+    font-weight: 100; /* Sets header font weight to 100 */
+    font-size: 1.5rem; /* Adjust the size as needed */
+}
+
+h2 {
+    color: white; /*all h2 text color white*/
+    background-color: #F76C6C; /*add background color*/
+    text-align: center; /*center h2 texts*/
+    padding: .5rem;
+    border-radius: 30% ;
+}
+
+header, main, aside, footer {
+    padding: 1rem; /* Adds padding to all sections */
+}
+
+header {
+    text-align: center; /* Center header text */
+    background-color: #374785; /* Sets background color for the header */
+    color: white; /* Sets text color to white */
+    padding: 1rem;
+}
+
+nav {
+    display: flex; /* Uses flexbox for navigation links */
+    justify-content: space-around; /* Distributes space evenly around items */
+    background-color: #A8D0E6; /* Different background color for the nav bar */
+    padding: 0.5rem;
+}
+
+nav a {
+    color: white; /* Sets link color to white */
+    text-decoration: none; /* Removes underline from links */
+    
+}
+
+nav a:hover {
+    text-decoration: underline; /* Adds underline on hover */
+}
+
+main {
+    display: grid; /* Uses CSS grid layout for the main content */
+    grid-template-columns: 2fr 1fr; /* Creates two columns, with the first one being twice as wide as the second */
+    gap: 1rem; /* Adds gap between grid items */
+    background-color: #F8E9A1;
+}
+
+.about-me-content {
+    display: grid; /* Uses CSS grid layout for the about-me content */
+    grid-template-columns: 1fr auto; /* Two columns: text takes the remaining space, image takes auto width */
+    gap: 1rem; /* Adds gap between grid items */
+    align-items: start; /* Aligns items at the start */
+}
+
+.profile {
+    width: 200px; /* Sets a fixed width for the profile image */
+    height: auto; /* Ensures the image scales proportionally */
+    /* padding-top: 1rem; add padding above picture to fix it being taller than paragraph text */
+    border: 3px solid #ccc; /* add border to image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* add shadow behind image */
+}
+
+.card {
+    border: 1px solid #ccc; /* Adds a border to card sections */
+    border-radius: 5%; /* Adds rounded corners */
+    padding: 3rem; /* Adds padding inside card sections */
+    grid-column: 1; /* Places the card section in the first column */
+    background-color: white; /* Sets background color to white */
+    padding-top: 1rem; /* less padding at the top */
+}
+
+.utah-content {
+    text-align: left; /* Ensures text is left-aligned */
+}
+
+.utah-content img {
+    display: block; /* Makes the image a block-level element */
+    margin: 0 auto; /* Centers the image horizontally */
+    width: 300px; /* image width max of 300px */
+    height: auto;
+}
+
+
+.resources {
+    border: 1px solid #ccc; /* Adds a border to resources section */
+    padding: 3rem; /* Adds padding inside resources section */
+    padding-top: 1rem; /* less padding at the top */
+    grid-column: 2 / 3; /* Places the resources section in the second column */
+    background-color: white; /* Set background color to white */
+}
+
+footer {
+    background-color: #374785; /* Sets background color for the footer */
+    color: white; /* Sets text color to white */
+    text-align: center; /* Centers text */
+}
+
+footer p {
+    margin: 0; /* Removes default margin */
+}

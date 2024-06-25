@@ -1,11 +1,54 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131</title>
+    <title>WDD 131 - Dynamic Web Fundamentals - Kiersti Roberts</title>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Kiersti Roberts. This is my WDD 131 assignment. It includes information about me and important links.">
+    <meta name="author" content="Kiersti Roberts">
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script> <!-- Link to the external JavaScript file, deferred until HTML is loaded -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Hi, my name is Kiersti Roberts. I am a Software Engineering Major.</h1>
+    <header>
+        <h1>WDD 131: Dynamic Web Fundamentals - Kiersti Roberts</h1>
+        <nav>
+            <a href="https://www.linkedin.com">LinkedIn</a>
+            <a href="https://byui.instructure.com/">I-Learn</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures/nt/1-jn/4?lang=eng&id=p8#p8">Favorite Scripture</a> <!-- Link to Scripture -->
+            <a href="#">Final Project</a>
+        </nav>
+    </header>
+    <main>
+        <section class="card">
+            <h2>About Me</h2>
+            <div class="about-me-content">
+                <p>My name is Kiersti. I was born in Utah and live with my family in Salt Lake County. I have a loving husband and two beautiful girls, with another baby on the way. I am a Software Engineering major. I enjoy hiking, swimming, reading, writing, singing, and learning how to code. My favorite time of the day is family time.</p> 
+                <img src="images/profile.JPG" alt="A picture of Kiersti." class="profile"> <!-- profile class added to position image to right -->
+            </div>
+            <h2>Utah, USA</h2> 
+            <div class="utah-content">
+            <p>Utah, located in the western United States, is known for its diverse landscapes, including deserts and mountain valleys. Salt Lake City, its capital, is the headquarters of the Church of Jesus Christ of Latter-day Saints (LDS). The state offers abundant outdoor recreational activities with its national parks and ski resorts. Utah's economy is driven by technology, mining, and tourism.</p>
+            <img src="images/utah.jpg" alt="Utah"> 
+            </div>        
+        </section>        
+        <aside class="resources">
+            <h3>Web Dev Resources</h3> 
+            <ul> 
+                <li><a href="https://developer.mozilla.org/en-US/">Mozilla Developer Network</a></li>
+                <li><a href="https://mimo.org/">Mimo Homepage</a></li>
+                <li><a href="https://www.codewars.com/">Code Wars</a></li>
+                <li><a href="https://www.w3schools.com">W3 Schools</a></li>
+                <li><a href="https://www.udemy.com">Udemy</a></li>
+            </ul>
+        </aside>
+    </main>  
+    <footer> 
+        <p>&copy; <span id="currentyear"></span> Kiersti Roberts, United States of America.</p> 
+        <p id="lastModified"></p> <!-- Placeholder for last modified date -->
+    </footer>
 </body>
 </html>
