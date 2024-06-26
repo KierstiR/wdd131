@@ -11,7 +11,7 @@ h1 {
 }
 
 h2 {
-    color: white; /*all h2 text color white*/
+    color: #2B2B2B; /*all h2 text color white*/
     background-color: #F76C6C; /*add background color*/
     text-align: center; /*center h2 texts*/
     padding: .5rem;
@@ -37,7 +37,7 @@ nav {
 }
 
 nav a {
-    color: white; /* Sets link color to white */
+    color: #2B2B2B; /* Sets link color to white */
     text-decoration: none; /* Removes underline from links */
     
 }
