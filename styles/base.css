@@ -48,6 +48,8 @@ nav a:hover {
 
 main {
     display: grid; /* Uses CSS grid layout for the main content */
+    max-width: 1200px; /* Sets a maximum width for the main element */
+    margin: 0 auto; /* Centers the main element horizontally */
     grid-template-columns: 2fr 1fr; /* Creates two columns, with the first one being twice as wide as the second */
     gap: 1rem; /* Adds gap between grid items */
     background-color: #F8E9A1;
